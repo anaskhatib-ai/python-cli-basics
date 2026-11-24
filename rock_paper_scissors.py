@@ -17,9 +17,6 @@ while True:
         print("Invalid input try again!")
         continue
 
- #   if user_input.isdigit():
-  #      print("Invalid input ")
-
     computer_pick = random.choice(options)
     print(f"Computer picked {computer_pick}.")
 
