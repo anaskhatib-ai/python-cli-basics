@@ -6,7 +6,6 @@ students = []              # main list = students
 def add_student():
     """Logic to input data and append to the list."""
     name = input("\nEnter the name of student: ")
-
     
     try:    
         roll = int(input("Enter the roll number: "))
@@ -47,7 +46,7 @@ def view_all():
     print("="*30)
 
 def find_topper():
-    """Logic to find the highest scorer with design."""
+    """Logic to find the highest scorer."""
 
     if not students:
         print("\nNo students to evaluate.")
